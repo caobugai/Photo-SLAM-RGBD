@@ -1,0 +1,10 @@
+/home/czz/czz/Software/CLion-2022.2.4/clion-2022.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/czz/czz/Software/CLion-2022.2.4/clion-2022.2.4/bin/ninja/linux/ninja -G Ninja -S /home/czz/czz/Code/GS/Photo-SLAM -B /home/czz/czz/Code/GS/Photo-SLAM/cmake-build-debug
+CMake Error at /home/czz/czz/Software/CLion-2022.2.4/clion-2022.2.4/bin/cmake/linux/share/cmake-3.23/Modules/CMakeDetermineCUDACompiler.cmake:311 (message):
+  CMAKE_CUDA_ARCHITECTURES must be valid if set.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/czz/czz/Code/GS/Photo-SLAM/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/czz/czz/Code/GS/Photo-SLAM/cmake-build-debug/CMakeFiles/CMakeError.log".
